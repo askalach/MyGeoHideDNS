@@ -590,20 +590,42 @@
 
 
 # Instagram & Threads & Facebook (рабочие IP провайдера, NextDNS отдаёт заблокированные)
+# Instagram
 31.13.72.174 instagram.com
 31.13.72.174 www.instagram.com
 57.144.248.192 i.instagram.com
 57.144.248.192 graph.instagram.com
 31.13.72.6 gateway.instagram.com
 31.13.72.53 graph-fallback.instagram.com
+157.240.202.63 i-fallback.instagram.com
 31.13.72.53 l.instagram.com
+31.13.72.53 static.cdninstagram.com
+31.13.72.53 scontent.cdninstagram.com
+# Threads
 31.13.72.53 www.threads.com
+# Facebook
 31.13.72.5 edge-mqtt.facebook.com
-31.13.72.8 graph.facebook.com
 57.144.248.144 edge-mqtt-fallback.facebook.com
 31.13.72.34 mqtt-mini.facebook.com
+31.13.72.173 mqtt-ig-p4.facebook.com
+31.13.72.8 graph.facebook.com
 57.144.248.141 graph-fallback.facebook.com
 31.13.72.36 b-graph.facebook.com
+57.144.244.1 www.facebook.com
+57.144.244.1 m.facebook.com
+57.144.244.1 b-www.facebook.com
+31.13.72.8 web.facebook.com
+31.13.72.8 ep1.facebook.com
+31.13.72.8 ep2.facebook.com
+157.240.205.1 ep7.facebook.com
+31.13.72.8 edge-chat.facebook.com
+31.13.72.40 z-m-gateway.facebook.com
+157.240.205.11 lookaside.facebook.com
+# FBcdn & FBsbx
+31.13.72.12 static.xx.fbcdn.net
+31.13.72.12 scontent.xx.fbcdn.net
+31.13.72.12 platform-lookaside.fbsbx.com
+31.13.72.12 lookaside.fbsbx.com
 
 # Meta AI
 45.155.204.190 meta.ai
