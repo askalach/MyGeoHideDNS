@@ -588,41 +588,6 @@
 45.155.204.190 zillow.fls.jetbrains.com
 95.182.120.241 zillow.fls.jetbrains.com
 
-# Instagram & Threads & Facebook (через прокси GeoHide, чтобы не зависеть от nfqws2)
-45.155.204.190 instagram.com
-95.182.120.241 instagram.com
-45.155.204.190 www.instagram.com
-95.182.120.241 www.instagram.com
-45.155.204.190 i.instagram.com
-95.182.120.241 i.instagram.com
-45.155.204.190 graph.instagram.com
-95.182.120.241 graph.instagram.com
-45.155.204.190 gateway.instagram.com
-95.182.120.241 gateway.instagram.com
-45.155.204.190 graph-fallback.instagram.com
-95.182.120.241 graph-fallback.instagram.com
-45.155.204.190 i-fallback.instagram.com
-95.182.120.241 i-fallback.instagram.com
-45.155.204.190 l.instagram.com
-95.182.120.241 l.instagram.com
-45.155.204.190 static.cdninstagram.com
-95.182.120.241 static.cdninstagram.com
-45.155.204.190 www.threads.com
-95.182.120.241 www.threads.com
-45.155.204.190 edge-mqtt.facebook.com
-95.182.120.241 edge-mqtt.facebook.com
-45.155.204.190 edge-mqtt-fallback.facebook.com
-95.182.120.241 edge-mqtt-fallback.facebook.com
-45.155.204.190 mqtt-mini.facebook.com
-95.182.120.241 mqtt-mini.facebook.com
-45.155.204.190 mqtt-ig-p4.facebook.com
-95.182.120.241 mqtt-ig-p4.facebook.com
-45.155.204.190 graph.facebook.com
-95.182.120.241 graph.facebook.com
-45.155.204.190 graph-fallback.facebook.com
-95.182.120.241 graph-fallback.facebook.com
-45.155.204.190 b-graph.facebook.com
-95.182.120.241 b-graph.facebook.com
 
 # Meta AI
 45.155.204.190 meta.ai
