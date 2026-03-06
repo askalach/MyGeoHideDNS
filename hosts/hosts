@@ -588,6 +588,25 @@
 45.155.204.190 zillow.fls.jetbrains.com
 95.182.120.241 zillow.fls.jetbrains.com
 
+# Instagram & Threads & Facebook (реальные IP, отключение ECH для работы nfqws2)
+157.240.245.174 instagram.com
+157.240.245.174 www.instagram.com
+157.240.245.174 i.instagram.com
+157.240.245.174 graph.instagram.com
+157.240.245.174 gateway.instagram.com
+157.240.245.174 graph-fallback.instagram.com
+157.240.245.174 i-fallback.instagram.com
+157.240.245.174 l.instagram.com
+157.240.245.174 static.cdninstagram.com
+157.240.245.174 www.threads.com
+157.240.245.174 edge-mqtt.facebook.com
+157.240.245.174 edge-mqtt-fallback.facebook.com
+157.240.245.174 mqtt-mini.facebook.com
+157.240.245.174 mqtt-ig-p4.facebook.com
+157.240.245.174 graph.facebook.com
+157.240.245.174 graph-fallback.facebook.com
+157.240.245.174 b-graph.facebook.com
+
 # Meta AI
 45.155.204.190 meta.ai
 95.182.120.241 meta.ai
