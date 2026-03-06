@@ -589,6 +589,22 @@
 95.182.120.241 zillow.fls.jetbrains.com
 
 
+# Instagram & Threads & Facebook (рабочие IP провайдера, NextDNS отдаёт заблокированные)
+31.13.72.174 instagram.com
+31.13.72.174 www.instagram.com
+57.144.248.192 i.instagram.com
+57.144.248.192 graph.instagram.com
+31.13.72.6 gateway.instagram.com
+31.13.72.53 graph-fallback.instagram.com
+31.13.72.53 l.instagram.com
+31.13.72.53 www.threads.com
+31.13.72.5 edge-mqtt.facebook.com
+31.13.72.8 graph.facebook.com
+57.144.248.144 edge-mqtt-fallback.facebook.com
+31.13.72.34 mqtt-mini.facebook.com
+57.144.248.141 graph-fallback.facebook.com
+31.13.72.36 b-graph.facebook.com
+
 # Meta AI
 45.155.204.190 meta.ai
 95.182.120.241 meta.ai
