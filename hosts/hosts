@@ -603,6 +603,9 @@
 31.13.72.53 scontent.cdninstagram.com
 # Threads
 31.13.72.53 www.threads.com
+57.144.244.192 threads.com
+57.144.244.192 threads.net
+57.144.244.192 www.threads.net
 # Facebook
 31.13.72.5 edge-mqtt.facebook.com
 57.144.248.144 edge-mqtt-fallback.facebook.com
