@@ -597,7 +597,7 @@
 57.144.248.192 graph.instagram.com
 31.13.72.6 gateway.instagram.com
 31.13.72.53 graph-fallback.instagram.com
-157.240.202.63 i-fallback.instagram.com
+31.13.72.53 i-fallback.instagram.com
 31.13.72.53 l.instagram.com
 31.13.72.53 static.cdninstagram.com
 31.13.72.53 scontent.cdninstagram.com
@@ -621,9 +621,11 @@
 31.13.72.8 ep1.facebook.com
 31.13.72.8 ep2.facebook.com
 157.240.205.1 ep7.facebook.com
+31.13.72.175 z-p42-chat-e2ee-ig-fallback.facebook.com
+31.13.72.175 z-p42-chat-e2ee-ig.facebook.com
 31.13.72.8 edge-chat.facebook.com
 31.13.72.40 z-m-gateway.facebook.com
-157.240.205.11 lookaside.facebook.com
+31.13.72.12 lookaside.facebook.com
 # FBcdn & FBsbx
 31.13.72.12 static.xx.fbcdn.net
 31.13.72.12 scontent.xx.fbcdn.net
