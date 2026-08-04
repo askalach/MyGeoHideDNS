@@ -36,6 +36,19 @@ KEEP_CATEGORIES = [
     "Notion",
 ]
 
+# Домены, которых нет в upstream, но без них сервис работает неполноценно.
+# IP подставляются те же, что upstream использует для прокси, поэтому при смене
+# прокси эти записи переезжают вместе с остальными.
+#
+# Важно: rewrites в NextDNS действуют на все поддомены, поэтому апекс покрывает
+# всё поддерево разом и перечислять хосты поштучно не нужно.
+EXTRA_DOMAINS = [
+    # Загруженные файлы и сгенерированные картинки ChatGPT отдаёт с хостов
+    # sdmntpr<регион>.oaiusercontent.com. Upstream перечисляет лишь четыре
+    # региона, и при попадании на любой другой вложения отваливаются.
+    "oaiusercontent.com",
+]
+
 BLOCK_URLS = [
     "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt",  # Apple
     "https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt",  # OPPO & Realme
@@ -104,15 +117,40 @@ def collect_redirects(sections: dict[str, list[tuple[str, str]]]) -> list[str]:
         )
 
     lines: list[str] = []
+    covered: set[str] = set()
     for name in KEEP_CATEGORIES:
         lines.append("")
         lines.append(f"# {name}")
         seen: set[tuple[str, str]] = set()
         for ip, domain in sections[name]:
+            covered.add(domain)
             if (ip, domain) not in seen:
                 seen.add((ip, domain))
                 lines.append(f"{ip} {domain}")
+
+    extras = [domain for domain in EXTRA_DOMAINS if domain not in covered]
+    if extras:
+        proxy_ips = detect_proxy_ips(sections)
+        lines.append("")
+        lines.append("# Добавлено вручную (EXTRA_DOMAINS), в upstream отсутствует")
+        for domain in extras:
+            lines.extend(f"{ip} {domain}" for ip in proxy_ips)
+
     return lines
+
+
+def detect_proxy_ips(sections: dict[str, list[tuple[str, str]]]) -> list[str]:
+    """Определяет адреса прокси по первому домену первой оставленной категории.
+
+    Берём их из upstream, а не хардкодим, чтобы ручные записи переезжали вместе
+    с остальными при смене прокси.
+    """
+    rows = sections[KEEP_CATEGORIES[0]]
+    anchor = rows[0][1]
+    ips = [ip for ip, domain in rows if domain == anchor]
+    if not ips:
+        sys.exit("Не удалось определить IP прокси из upstream.")
+    return ips
 
 
 def collect_blocks() -> list[str]:

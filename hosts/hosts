@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-04 11:00 UTC
+# Дата сборки: 2026-08-04 11:35 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -555,6 +555,10 @@
 37.230.192.51 www.notion.so
 45.155.204.190 www.notion.com
 37.230.192.51 www.notion.com
+
+# Добавлено вручную (EXTRA_DOMAINS), в upstream отсутствует
+45.155.204.190 oaiusercontent.com
+37.230.192.51 oaiusercontent.com
 
 # Блокировка рекламы и трекеров (HaGeZi через реестр AdGuard)
 0.0.0.0 11-c3.bigdata.ctc.neo.xiaomi.com
