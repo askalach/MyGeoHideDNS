@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-04 11:35 UTC
+# Дата сборки: 2026-08-05 03:54 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -582,7 +582,6 @@
 0.0.0.0 acr-in-prd.samsungcloud.tv
 0.0.0.0 acr-kr-prd.samsungcloud.tv
 0.0.0.0 acr-mx-prd.samsungcloud.tv
-0.0.0.0 acr-nz-prd.samsungcloud.tv
 0.0.0.0 acr-us-prd.samsungcloud.tv
 0.0.0.0 acr0.samsungcloudsolution.com
 0.0.0.0 activity.browser.intl.miui.com
@@ -814,7 +813,6 @@
 0.0.0.0 bossadmin.pandora.xiaomi.com
 0.0.0.0 box.pandora.xiaomi.com
 0.0.0.0 bpu.samsungelectronics.com
-0.0.0.0 br-cota.vivoglobal.com
 0.0.0.0 br-p.vivoglobal.com
 0.0.0.0 brc-visio-telemetry.officeapps.live.com
 0.0.0.0 browser-api-br.heytapmobile.com
@@ -1469,7 +1467,6 @@
 0.0.0.0 kz-st-sl.vivoglobal.com
 0.0.0.0 kz-st-sysupgrade.vivoglobal.com
 0.0.0.0 kz-stsdk.vivoglobal.com
-0.0.0.0 kz-vcode-api.vivoglobal.com
 0.0.0.0 kz-vcode-od.vivoglobal.com
 0.0.0.0 kz-vcode-or.vivoglobal.com
 0.0.0.0 launch.apple.com
@@ -1836,6 +1833,7 @@
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
+0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 prderrordumpssm.samsungcloudsolution.net
