@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-05 03:54 UTC
+# Дата сборки: 2026-08-07 03:43 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1833,7 +1833,6 @@
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
-0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 prderrordumpssm.samsungcloudsolution.net
