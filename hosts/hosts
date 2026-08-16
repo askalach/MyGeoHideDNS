@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-07 03:43 UTC
+# Дата сборки: 2026-08-16 02:17 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1481,7 +1481,6 @@
 0.0.0.0 location.live.net
 0.0.0.0 location.microsoft.com
 0.0.0.0 lockcard-service-in.allawnos.com
-0.0.0.0 log-abroad.avlyun.sec.miui.com
 0.0.0.0 log-eap-in.coloros.com
 0.0.0.0 log-eap-sg.coloros.com
 0.0.0.0 log-eap.coloros.com
@@ -1696,7 +1695,6 @@
 0.0.0.0 notice.game.xiaomi.com
 0.0.0.0 o.xbox.com
 0.0.0.0 o2o.api.xiaomi.com
-0.0.0.0 o365diagtelemetry.trafficmanager.net
 0.0.0.0 obus-cn.dc.heytapmobi.com
 0.0.0.0 obus-conf-fr.heytapmobile.com
 0.0.0.0 obus-conf-in.heytapmobile.com
@@ -1895,6 +1893,8 @@
 0.0.0.0 rmads.msn.com
 0.0.0.0 ro-up.vivoglobal.com
 0.0.0.0 rtmpott.pandora.xiaomi.com
+0.0.0.0 ru-album-api.vivoglobal.com
+0.0.0.0 ru-analyzer-appstore.vivoglobal.com
 0.0.0.0 ru-api.xmpush.global.xiaomi.com
 0.0.0.0 ru-commonitor-stsdk.vivoglobal.com
 0.0.0.0 ru-comonrt-stsdk.vivoglobal.com
@@ -2272,6 +2272,7 @@
 0.0.0.0 wayfinderanalytics.servicebus.windows.net
 0.0.0.0 weather-analytics-events.apple.com
 0.0.0.0 weather-analytics-events.news.apple-dns.net
+0.0.0.0 westeurope-5.in.applicationinsights.azure.com.fiege.de
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 win-global-asimov-leafs-events-data.trafficmanager.net
