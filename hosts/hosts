@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-16 02:17 UTC
+# Дата сборки: 2026-08-25 02:14 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -582,6 +582,7 @@
 0.0.0.0 acr-in-prd.samsungcloud.tv
 0.0.0.0 acr-kr-prd.samsungcloud.tv
 0.0.0.0 acr-mx-prd.samsungcloud.tv
+0.0.0.0 acr-nz-prd.samsungcloud.tv
 0.0.0.0 acr-us-prd.samsungcloud.tv
 0.0.0.0 acr0.samsungcloudsolution.com
 0.0.0.0 activity.browser.intl.miui.com
@@ -1860,7 +1861,6 @@
 0.0.0.0 puma-api.ptqy.gitv.tv
 0.0.0.0 push-dc-us.heytapmobile.com
 0.0.0.0 push.heytapmobile.com
-0.0.0.0 push.samsungosp.com.cn
 0.0.0.0 qiye.xiaomi.com
 0.0.0.0 qmds-dev-samsung.com
 0.0.0.0 qwapi.com
