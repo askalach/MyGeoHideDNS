@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-08-25 02:14 UTC
+# Дата сборки: 2026-09-02 05:17 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -614,6 +614,7 @@
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn.ctdns.cn
 0.0.0.0 ads-msn-com-profile.trafficmanager.net
+0.0.0.0 ads.apple.com
 0.0.0.0 ads.bing.com
 0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.heytapmobi.com
@@ -1832,6 +1833,7 @@
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
+0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 prderrordumpssm.samsungcloudsolution.net
@@ -2148,7 +2150,6 @@
 0.0.0.0 t4.market.xiaomi.com
 0.0.0.0 t5.market.xiaomi.com
 0.0.0.0 t7.market.xiaomi.com
-0.0.0.0 tar.microsoft.com
 0.0.0.0 target-us.samsung.com
 0.0.0.0 teams-events-data.trafficmanager.net
 0.0.0.0 teams.nel.measure.office.net.cardano.com
