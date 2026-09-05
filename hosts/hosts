@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-09-02 05:17 UTC
+# Дата сборки: 2026-09-05 05:06 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1833,7 +1833,6 @@
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
-0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 prderrordumpssm.samsungcloudsolution.net
@@ -2238,9 +2237,7 @@
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 upu.samsungelectronics.com
 0.0.0.0 ureca.samsungapps.com
-0.0.0.0 ureca.samsungapps.com.ad.mexnet.de
 0.0.0.0 us-mesh-events-data-leafs.trafficmanager.net
-0.0.0.0 us-report.gras.samsungdm.com
 0.0.0.0 usc-onenote-telemetry.officeapps.live.com
 0.0.0.0 usc-visio-telemetry.officeapps.live.com
 0.0.0.0 userid.xiaomi.com
