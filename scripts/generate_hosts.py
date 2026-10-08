@@ -25,13 +25,13 @@ GEOHIDE_URL = "https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs
 # Если upstream переименует секцию, скрипт упадёт с понятной ошибкой,
 # а не выкинет её молча.
 KEEP_CATEGORIES = [
-    "ChatGPT (OpenAI)",
-    "Claude",
-    "Google AI",
-    "Grok",
+    "ChatGPT (OpenAI) AI",
+    "Claude AI",
+    "Google Gemini AI",
+    "Grok AI",
     "Meta AI",
     "DeepL",
-    "ElevenLabs",
+    "ElevenLabs AI",
     "Microsoft (Copilot, Designer, Xbox)",
     "Notion",
 ]
@@ -48,6 +48,17 @@ EXTRA_DOMAINS = [
     # региона, и при попадании на любой другой вложения отваливаются.
     "oaiusercontent.com",
 ]
+
+# Какой прокси ставить первым. NextDNS применяет только первый IP для домена
+# (NextDnsRewriteService.buildNewRewrites использует putIfAbsent), поэтому порядок
+# в файле определяет, через какой сервер пойдёт весь трафик. Upstream перечисляет
+# прокси в своём порядке, и он не обязан совпадать с тем, что быстрее у тебя.
+#
+# None — сохранить порядок upstream. Иначе укажи IP, который нужно поднять наверх.
+# Померить со своей сети:
+#   curl -s --max-time 10 --resolve gemini.google.com:443:<IP> \
+#        https://gemini.google.com -o /dev/null -w '%{speed_download}\n'
+PREFERRED_PROXY_IP = None
 
 BLOCK_URLS = [
     "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt",  # Apple
@@ -121,22 +132,33 @@ def collect_redirects(sections: dict[str, list[tuple[str, str]]]) -> list[str]:
     for name in KEEP_CATEGORIES:
         lines.append("")
         lines.append(f"# {name}")
-        seen: set[tuple[str, str]] = set()
+        # Домены группируем, сохраняя порядок появления, чтобы можно было
+        # переставить IP внутри каждого домена, не перемешивая сам список.
+        by_domain: dict[str, list[str]] = {}
         for ip, domain in sections[name]:
             covered.add(domain)
-            if (ip, domain) not in seen:
-                seen.add((ip, domain))
-                lines.append(f"{ip} {domain}")
+            ips = by_domain.setdefault(domain, [])
+            if ip not in ips:
+                ips.append(ip)
+        for domain, ips in by_domain.items():
+            lines.extend(f"{ip} {domain}" for ip in prioritise(ips))
 
     extras = [domain for domain in EXTRA_DOMAINS if domain not in covered]
     if extras:
-        proxy_ips = detect_proxy_ips(sections)
+        proxy_ips = prioritise(detect_proxy_ips(sections))
         lines.append("")
         lines.append("# Добавлено вручную (EXTRA_DOMAINS), в upstream отсутствует")
         for domain in extras:
             lines.extend(f"{ip} {domain}" for ip in proxy_ips)
 
     return lines
+
+
+def prioritise(ips: list[str]) -> list[str]:
+    """Поднимает PREFERRED_PROXY_IP наверх — именно он и применится в NextDNS."""
+    if PREFERRED_PROXY_IP is None or PREFERRED_PROXY_IP not in ips:
+        return ips
+    return [PREFERRED_PROXY_IP] + [ip for ip in ips if ip != PREFERRED_PROXY_IP]
 
 
 def detect_proxy_ips(sections: dict[str, list[tuple[str, str]]]) -> list[str]:
