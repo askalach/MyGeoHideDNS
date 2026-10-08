@@ -58,7 +58,7 @@ EXTRA_DOMAINS = [
 # Померить со своей сети:
 #   curl -s --max-time 10 --resolve gemini.google.com:443:<IP> \
 #        https://gemini.google.com -o /dev/null -w '%{speed_download}\n'
-PREFERRED_PROXY_IP = None
+PREFERRED_PROXY_IP = "193.233.112.88"
 
 BLOCK_URLS = [
     "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt",  # Apple
