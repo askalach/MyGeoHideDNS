@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-08 17:27 UTC
+# Дата сборки: 2026-10-10 06:33 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1257,6 +1257,7 @@
 0.0.0.0 cname-in-bom01-nginxpool03.vivoglobal.com
 0.0.0.0 cname-in-ctdbonrt-stsdk.vivoglobal.com
 0.0.0.0 cname-sin01-stsdk09.vivoglobal.com
+0.0.0.0 co-album-api.vivoglobal.com
 0.0.0.0 co-cota.vivoglobal.com
 0.0.0.0 co-domaincfg.vivoglobal.com
 0.0.0.0 co-onrt-stsdk.vivoglobal.com
@@ -1987,6 +1988,7 @@
 0.0.0.0 partiality.itunes-apple.com.akadns.net
 0.0.0.0 partiality.itunes.apple.com
 0.0.0.0 partiality.itunes.apple.com.edgekey.net
+0.0.0.0 partnerfraudevents.trafficmanager.net
 0.0.0.0 pb.bi.gitv.tv
 0.0.0.0 performance-partners.apple.com
 0.0.0.0 pgtbr1-excel-telemetry-vip.officeapps.live.com
@@ -2054,6 +2056,7 @@
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
+0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 prderrordumpssm.samsungcloudsolution.net
