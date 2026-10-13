@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-10 06:33 UTC
+# Дата сборки: 2026-10-13 07:14 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -41,6 +41,10 @@
 193.233.112.68 auth0.openai.com
 193.233.112.67 auth0.openai.com
 159.194.200.33 auth0.openai.com
+193.233.112.88 bps.openai.com
+193.233.112.68 bps.openai.com
+159.194.200.33 bps.openai.com
+193.233.112.67 bps.openai.com
 193.233.112.88 platform.openai.com
 159.194.200.33 platform.openai.com
 193.233.112.67 platform.openai.com
@@ -257,6 +261,14 @@
 193.233.112.68 www.flow.google
 159.194.200.33 www.flow.google
 193.233.112.67 www.flow.google
+193.233.112.88 flow.google.com
+159.194.200.33 flow.google.com
+193.233.112.67 flow.google.com
+193.233.112.68 flow.google.com
+193.233.112.88 www.flow.google.com
+193.233.112.68 www.flow.google.com
+193.233.112.67 www.flow.google.com
+159.194.200.33 www.flow.google.com
 193.233.112.88 flowmusic.app
 159.194.200.33 flowmusic.app
 193.233.112.67 flowmusic.app
@@ -425,6 +437,10 @@
 193.233.112.68 people-pa.clients6.google.com
 193.233.112.67 people-pa.clients6.google.com
 159.194.200.33 people-pa.clients6.google.com
+193.233.112.88 playground.google
+159.194.200.33 playground.google
+193.233.112.67 playground.google
+193.233.112.68 playground.google
 193.233.112.88 proactivebackend-pa.googleapis.com
 159.194.200.33 proactivebackend-pa.googleapis.com
 193.233.112.67 proactivebackend-pa.googleapis.com
