@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-14 05:39 UTC
+# Дата сборки: 2026-10-17 05:13 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -884,6 +884,7 @@
 0.0.0.0 adx-op-in.heytapmobile.com
 0.0.0.0 adx-op-ru.heytapmobile.com
 0.0.0.0 adx-op-sg.heytapmobile.com
+0.0.0.0 adx-u-in.heytapmobile.com
 0.0.0.0 adx-u-ru.heytapmobile.com
 0.0.0.0 adx-u-sg.heytapmobile.com
 0.0.0.0 adx.tv.mi.com
@@ -1156,6 +1157,7 @@
 0.0.0.0 citrixtelemetryeheu-alias.servicebus.windows.net
 0.0.0.0 citrixtelemetryeheu.servicebus.windows.net
 0.0.0.0 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
+0.0.0.0 cl-vcode-api.vivoglobal.com
 0.0.0.0 clarity.microsoft.com
 0.0.0.0 classify-app-eu.allawnos.com
 0.0.0.0 classify-app-in.allawnos.com
@@ -1706,11 +1708,13 @@
 0.0.0.0 kz-p.vivoglobal.com
 0.0.0.0 kz-pnrt-stsdk.vivoglobal.com
 0.0.0.0 kz-prt-stsdk.vivoglobal.com
+0.0.0.0 kz-romsp-unifyconfig.vivoglobal.com
 0.0.0.0 kz-st-exappupgrade.vivoglobal.com
 0.0.0.0 kz-st-sl.vivoglobal.com
 0.0.0.0 kz-st-sysupgrade.vivoglobal.com
 0.0.0.0 kz-stsdk.vivoglobal.com
 0.0.0.0 kz-timesync.vivoglobal.com
+0.0.0.0 kz-vcode-api.vivoglobal.com
 0.0.0.0 kz-vcode-od.vivoglobal.com
 0.0.0.0 kz-vcode-or.vivoglobal.com
 0.0.0.0 launch.apple.com
