@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-17 05:13 UTC
+# Дата сборки: 2026-10-18 05:17 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -961,6 +961,7 @@
 0.0.0.0 api.xmpush.xiaomi.com
 0.0.0.0 apisnd.heytapmobi.com
 0.0.0.0 apkrep.ff.avast.sec.miui.com
+0.0.0.0 app-events.infoapps.apple.com
 0.0.0.0 app.greengurad.sec.miui.com
 0.0.0.0 app.migc.xiaomi.com
 0.0.0.0 app.miui.com
@@ -1514,6 +1515,7 @@
 0.0.0.0 fr-register.xmpush.global.xiaomi.com
 0.0.0.0 fr.feedback.xmpush.global.xiaomi.com
 0.0.0.0 frc-visio-telemetry.officeapps.live.com
+0.0.0.0 freeform-events.apple.com
 0.0.0.0 g.bing.com
 0.0.0.0 g00.msn.com
 0.0.0.0 gallery.cdn.pandora.xiaomi.com
@@ -2089,6 +2091,7 @@
 0.0.0.0 preview.crm.sms.miui.com
 0.0.0.0 preview.msn.com
 0.0.0.0 privacy.miui.com
+0.0.0.0 prod-app-analytics-event-gateway.v.aaplimg.com
 0.0.0.0 prod-eh-v1-analytics.servicebus.windows.net
 0.0.0.0 prod-event-relay-api.v.aaplimg.com
 0.0.0.0 prod-event-relay-books-api.v.aaplimg.com
@@ -2097,6 +2100,7 @@
 0.0.0.0 prod-event-relay-stocks-api.v.aaplimg.com
 0.0.0.0 prod-event-relay-weather-api.v.aaplimg.com
 0.0.0.0 prod-eventhub-analytics.servicebus.windows.net
+0.0.0.0 prod-iwork-events.v.aaplimg.com
 0.0.0.0 prod-news-notification-events.v.aaplimg.com
 0.0.0.0 prod.editor.ads.trafficmanager.net
 0.0.0.0 production-jobactivity-analytics.servicebus.windows.net
