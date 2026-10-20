@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-18 05:17 UTC
+# Дата сборки: 2026-10-20 05:34 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -241,6 +241,26 @@
 193.233.112.68 support.anthropic.com
 
 # Google Gemini AI
+193.233.112.88 aida.googleapis.com
+193.233.112.68 aida.googleapis.com
+159.194.200.33 aida.googleapis.com
+193.233.112.67 aida.googleapis.com
+193.233.112.88 antigravity-pa.googleapis.com
+193.233.112.67 antigravity-pa.googleapis.com
+159.194.200.33 antigravity-pa.googleapis.com
+193.233.112.68 antigravity-pa.googleapis.com
+193.233.112.88 antigravity-unleash.goog
+193.233.112.67 antigravity-unleash.goog
+159.194.200.33 antigravity-unleash.goog
+193.233.112.68 antigravity-unleash.goog
+193.233.112.88 www.antigravity-unleash.goog
+159.194.200.33 www.antigravity-unleash.goog
+193.233.112.67 www.antigravity-unleash.goog
+193.233.112.68 www.antigravity-unleash.goog
+193.233.112.88 antigravity.googleapis.com
+193.233.112.68 antigravity.googleapis.com
+193.233.112.67 antigravity.googleapis.com
+159.194.200.33 antigravity.googleapis.com
 193.233.112.88 antigravity.google
 193.233.112.67 antigravity.google
 159.194.200.33 antigravity.google
