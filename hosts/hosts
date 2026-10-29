@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-20 05:34 UTC
+# Дата сборки: 2026-10-29 06:39 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1419,6 +1419,7 @@
 0.0.0.0 dls-account.di.atlas.samsung.com
 0.0.0.0 dls-ddc.dqa.samsung.com
 0.0.0.0 dls-udc.dqa.samsung.com
+0.0.0.0 dls.di.atlas.samsung.com
 0.0.0.0 dls.di.runestone.samsung.com
 0.0.0.0 download-samsung.dtignite.com
 0.0.0.0 dpu.samsungelectronics.com
@@ -2311,6 +2312,11 @@
 0.0.0.0 sca.samsung.com
 0.0.0.0 sdk-cache.video.ptqy.gitv.tv
 0.0.0.0 sdk.ptqy.gitv.tv
+0.0.0.0 sdkconfig.eu.xiaomi.com
+0.0.0.0 sdkconfig.india.xiaomi.com
+0.0.0.0 sdkconfig.intl.xiaomi.com
+0.0.0.0 sdkconfig.rus.xiaomi.com
+0.0.0.0 sdkconfig.xiaomi.com
 0.0.0.0 sea-log-rcv.vansound.com
 0.0.0.0 seao.business.samsung.com
 0.0.0.0 search.miui.com
