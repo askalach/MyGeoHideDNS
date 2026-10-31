@@ -19,7 +19,11 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-GEOHIDE_URL = "https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs/heads/main/hosts/hosts"
+# Upstream публикует один и тот же набор доменов в трёх вариантах, отличающихся
+# только прокси: hosts/hosts (RU), hosts/eu/hosts и hosts/us/hosts.
+# RU-прокси (193.233.112.x, 159.194.200.33) с домашней сети и МТС не принимают
+# соединения на 443 (проверено 2026-10-31), поэтому берём EU.
+GEOHIDE_URL = "https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs/heads/main/hosts/eu/hosts"
 
 # Заголовки секций РОВНО так, как они написаны в upstream-файле.
 # Если upstream переименует секцию, скрипт упадёт с понятной ошибкой,
@@ -58,7 +62,7 @@ EXTRA_DOMAINS = [
 # Померить со своей сети:
 #   curl -s --max-time 10 --resolve gemini.google.com:443:<IP> \
 #        https://gemini.google.com -o /dev/null -w '%{speed_download}\n'
-PREFERRED_PROXY_IP = "193.233.112.88"
+PREFERRED_PROXY_IP = "37.221.93.141"
 
 BLOCK_URLS = [
     "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt",  # Apple
