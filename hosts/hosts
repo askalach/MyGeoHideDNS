@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-10-31 20:40 UTC
+# Дата сборки: 2026-11-07 06:44 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1456,7 +1456,6 @@
 0.0.0.0 ads-cps-in.heytapmobile.com
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn
 0.0.0.0 ads-marketing-vivofs.vivo.com.cn.ctdns.cn
-0.0.0.0 ads-msn-com-profile.trafficmanager.net
 0.0.0.0 ads.apple.com
 0.0.0.0 ads.bing.com
 0.0.0.0 ads.eu.msn.com
@@ -1492,9 +1491,11 @@
 0.0.0.0 adx-op-in.heytapmobile.com
 0.0.0.0 adx-op-ru.heytapmobile.com
 0.0.0.0 adx-op-sg.heytapmobile.com
+0.0.0.0 adx-u-in-heytapmobile-a-9ae47.in-s01.cngw.heytapmobile.com
 0.0.0.0 adx-u-in.heytapmobile.com
 0.0.0.0 adx-u-ru.heytapmobile.com
 0.0.0.0 adx-u-sg.heytapmobile.com
+0.0.0.0 adx-union-sg.heytapmobile.com
 0.0.0.0 adx.tv.mi.com
 0.0.0.0 adxh3-op-sg.heytapmobile.com
 0.0.0.0 adxlog-adnet.vivo.com.cn
@@ -1509,7 +1510,6 @@
 0.0.0.0 analytics-dev-api.test.samsunghealth.com
 0.0.0.0 analytics-dev-lleap-events.servicebus.windows.net
 0.0.0.0 analytics-dev-simpad-events.servicebus.windows.net
-0.0.0.0 analytics-events.apple.com
 0.0.0.0 analytics-listener.trafficmanager.net
 0.0.0.0 analytics-stg.samsungknox.com
 0.0.0.0 analytics.bigdata.samsung.com
@@ -1521,6 +1521,7 @@
 0.0.0.0 analytics.samsungknox.com
 0.0.0.0 analytics.trafficmanager.net
 0.0.0.0 analyticsehnwe.servicebus.windows.net
+0.0.0.0 analyticsiot-prod-mobileapps-ehn.servicebus.windows.net
 0.0.0.0 analyticspixel.microsoft.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 api-analytics-qa.samsungknox.com
@@ -1633,6 +1634,7 @@
 0.0.0.0 asia-vpushort-stsdk.vivoglobal.com
 0.0.0.0 au.ff.avast.sec.miui.com
 0.0.0.0 auc-visio-telemetry.officeapps.live.com
+0.0.0.0 audiobible-production-analytics-eh.servicebus.windows.net
 0.0.0.0 auth.api.gitv.tv
 0.0.0.0 auth.be.sec.miui.com
 0.0.0.0 auth.ff.avast.sec.miui.com
@@ -1751,12 +1753,12 @@
 0.0.0.0 ceuswatcab02.blob.core.windows.net
 0.0.0.0 ch-asimov-leafs-events-data.trafficmanager.net
 0.0.0.0 channelusa.samsung.com
-0.0.0.0 chc-visio-telemetry.officeapps.live.com
 0.0.0.0 child.sec.miui.com
 0.0.0.0 chong.sec.miui.com
 0.0.0.0 citrixanalyticseh-alias.servicebus.windows.net
 0.0.0.0 citrixanalyticseh.servicebus.windows.net
 0.0.0.0 citrixanalyticseh2-alias.servicebus.windows.net
+0.0.0.0 citrixanalyticseh2.servicebus.windows.net
 0.0.0.0 citrixanalyticseh3-alias.servicebus.windows.net
 0.0.0.0 citrixanalyticseh3.servicebus.windows.net
 0.0.0.0 citrixanalyticsehaps-alias.servicebus.windows.net
@@ -1877,9 +1879,6 @@
 0.0.0.0 cloudi-vn.browser.heytapmobile.com
 0.0.0.0 cms.sec.miui.com
 0.0.0.0 cn-api.mcsvc.samsung.com.cn
-0.0.0.0 cn-zh-ort-stsdk.vivoglobal.com
-0.0.0.0 cn-zh-prt-stsdk.vivoglobal.com
-0.0.0.0 cn-zh-stsdk.vivoglobal.com
 0.0.0.0 cname-ali-asia-stsdk.vivoglobal.com
 0.0.0.0 cname-asia-comonrt-stsdk.vivoglobal.com
 0.0.0.0 cname-asia-st-exappupgrade.vivoglobal.com
@@ -2026,14 +2025,13 @@
 0.0.0.0 dsplog-adnet.vivo.com.cn
 0.0.0.0 dual-s-ring.msedge.net
 0.0.0.0 dvb.pandora.xiaomi.com
-0.0.0.0 dz1dt3wqswdezgx4j2ryem5iad.apple.com
 0.0.0.0 e.mi.com
 0.0.0.0 eap-log-in.allawnos.com
 0.0.0.0 eap-log-sg.allawnos.com
 0.0.0.0 eaus2watcab01.blob.core.windows.net
 0.0.0.0 eaus2watcab02.blob.core.windows.net
 0.0.0.0 ehg-samsungusa.hitbox.com
-0.0.0.0 ehtelemetrystaging-alias.servicebus.windows.net
+0.0.0.0 ehtelemetrystaging.servicebus.windows.net
 0.0.0.0 emq.xmpush.xiaomi.com
 0.0.0.0 epoch-id.cdo.heytapmobi.com
 0.0.0.0 err-up.vivoglobal.com
@@ -2043,12 +2041,12 @@
 0.0.0.0 eu-cota.vivoglobal.com
 0.0.0.0 eu-domaincfg.vivoglobal.com
 0.0.0.0 eu-errup.vivoglobal.com
+0.0.0.0 eu-nrt-stsdk.vivoglobal.com
 0.0.0.0 eu-onrt-stsdk.vivoglobal.com
 0.0.0.0 eu-ort-stsdk.vivoglobal.com
 0.0.0.0 eu-p.vivoglobal.com
 0.0.0.0 eu-pnrt-stsdk.vivoglobal.com
 0.0.0.0 eu-romsp-unifyconfig.vivoglobal.com
-0.0.0.0 eu-st-exappupgrade.vivoglobal.com
 0.0.0.0 eu-st-sl.vivoglobal.com
 0.0.0.0 eu-stsdk.vivoglobal.com
 0.0.0.0 eu-timesync.vivoglobal.com
@@ -2064,7 +2062,6 @@
 0.0.0.0 euc-word-telemetry.officeapps.live.com
 0.0.0.0 euc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 eurffc-word-telemetry.officeapps.live.com
-0.0.0.0 eurffc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 eurppc-excel-telemetry.officeapps.live.com
 0.0.0.0 eurppc-powerpoint-telemetry.officeapps.live.com
 0.0.0.0 eurppc-word-telemetry.officeapps.live.com
@@ -2115,7 +2112,6 @@
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 flash.sec.miui.com
 0.0.0.0 flex.msn.com
-0.0.0.0 flirfvysba2opz0zmzqs5iuiad.apple.com
 0.0.0.0 flow.sec.miui.com
 0.0.0.0 foreign.coloros.com
 0.0.0.0 fourier-videoclip-eu.allawnos.com
@@ -2190,6 +2186,7 @@
 0.0.0.0 iadsdk.apple.com.akadns.net
 0.0.0.0 iadsdk.apple.com.edgekey.net
 0.0.0.0 iadworkbench.apple.com
+0.0.0.0 icmskillevents.trafficmanager.net
 0.0.0.0 icosa-service-eu.allawnos.com
 0.0.0.0 icosa-service-fr-01.allawnos.com
 0.0.0.0 icosa-service-fr-02.allawnos.com
@@ -2238,7 +2235,6 @@
 0.0.0.0 in-adlog.vivoglobal.com
 0.0.0.0 in-adreq.vivoglobal.com
 0.0.0.0 in-adsjssdk.vivoglobal.com
-0.0.0.0 in-analyzer-appstore.vivoglobal.com
 0.0.0.0 in-api-stsdk.vivoglobal.com
 0.0.0.0 in-apponrt-stsdk.vivoglobal.com
 0.0.0.0 in-apport-stsdk.vivoglobal.com
@@ -2314,7 +2310,6 @@
 0.0.0.0 kg-legacy-analytics.servicebus.windows.net
 0.0.0.0 kpu.samsungelectronics.com
 0.0.0.0 kuyun.com
-0.0.0.0 kz-album-api.vivoglobal.com
 0.0.0.0 kz-cname-sin01-bigdata.vivoglobal.com
 0.0.0.0 kz-cota.vivoglobal.com
 0.0.0.0 kz-err-up.vivoglobal.com
@@ -2482,7 +2477,6 @@
 0.0.0.0 mibi.xiaomi.com
 0.0.0.0 micloudevents.preview.n.xiaomi.com
 0.0.0.0 migc.g.mi.com
-0.0.0.0 migcreport.g.mi.com
 0.0.0.0 milink.pandora.xiaomi.com
 0.0.0.0 mis.g.mi.com
 0.0.0.0 misc.pandora.xiaomi.com
@@ -2541,7 +2535,6 @@
 0.0.0.0 mx-vcode-or.vivoglobal.com
 0.0.0.0 nav.sec.miui.com
 0.0.0.0 netcheck.pandora.xiaomi.com
-0.0.0.0 news-analytics-events.apple.com
 0.0.0.0 news-app-events.apple.com
 0.0.0.0 news-events.apple.com
 0.0.0.0 news-notification-events.apple.com
@@ -2631,15 +2624,7 @@
 0.0.0.0 partnerfraudevents.trafficmanager.net
 0.0.0.0 pb.bi.gitv.tv
 0.0.0.0 performance-partners.apple.com
-0.0.0.0 pgtbr1-excel-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtbr1-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtbr1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr2-excel-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtbr2-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtbr2-word-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtca1-excel-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtca1-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtca1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-word-telemetry-vip.officeapps.live.com
@@ -2651,12 +2636,7 @@
 0.0.0.0 pgteu3-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu4-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu4-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgteu4-word-telemetry-vip.officeapps.live.com
-0.0.0.0 pgteu5-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu5-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgteu5-word-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtmx1-powerpoint-telemetry-vip.officeapps.live.com
-0.0.0.0 pgtmx1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-word-telemetry-vip.officeapps.live.com
@@ -2682,7 +2662,6 @@
 0.0.0.0 plbusiness.samsung.com
 0.0.0.0 pmir.sec.miui.com
 0.0.0.0 pnrt-stsdk.vivoglobal.com
-0.0.0.0 podcasts-analytics-events.apple.com
 0.0.0.0 popup.msn.com
 0.0.0.0 port.sec.intl.miui.com
 0.0.0.0 port.sec.miui.com
@@ -2695,7 +2674,6 @@
 0.0.0.0 ppc-powerpoint-telemetry.wac.trafficmanager.net
 0.0.0.0 ppc-word-telemetry.officeapps.live.com
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
-0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
 0.0.0.0 prd-qlik-telemetry.servicebus.windows.net
 0.0.0.0 prd-usw2-requestattribution-iad.apple.com
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
@@ -3004,13 +2982,9 @@
 0.0.0.0 t-ring-fallback-s2.msedge.net
 0.0.0.0 t-ring-fallback.msedge.net
 0.0.0.0 t-ring-fallbacks1.msedge.net
-0.0.0.0 t-ring-fallbacks2.msedge.net
-0.0.0.0 t-ring-fdv2.msedge.net
-0.0.0.0 t-ring-s.msedge.net
 0.0.0.0 t-ring-s2.msedge.net
 0.0.0.0 t-ring-trafficshield.msedge.net
 0.0.0.0 t-ring.msedge.net
-0.0.0.0 t-s1-ring.msedge.net
 0.0.0.0 t-s2-ring.msedge.net
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t15.market.xiaomi.com
@@ -3061,6 +3035,7 @@
 0.0.0.0 tr-ort-stsdk.vivoglobal.com
 0.0.0.0 tr-p.vivoglobal.com
 0.0.0.0 tr-pnrt-stsdk.vivoglobal.com
+0.0.0.0 tr-prt-stsdk.vivoglobal.com
 0.0.0.0 tr-romsp-unifyconfig.vivoglobal.com
 0.0.0.0 tr-st-sl.vivoglobal.com
 0.0.0.0 tr-st-sysupgrade.vivoglobal.com
@@ -3091,7 +3066,6 @@
 0.0.0.0 traffic-media.co
 0.0.0.0 traffic-media.co.uk
 0.0.0.0 transfer.sec.miui.com
-0.0.0.0 tv-analytics-events.apple.com
 0.0.0.0 tvboss.pandora.xiaomi.com
 0.0.0.0 tvepg.pandora.xiaomi.com
 0.0.0.0 u-id.cpc.heytapmobile.com
@@ -3106,7 +3080,6 @@
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 upu.samsungelectronics.com
 0.0.0.0 ureca.samsungapps.com
-0.0.0.0 us-mesh-events-data-leafs.trafficmanager.net
 0.0.0.0 us-report.gras.samsungdm.com
 0.0.0.0 usc-onenote-telemetry.officeapps.live.com
 0.0.0.0 usc-visio-telemetry.officeapps.live.com
@@ -3137,10 +3110,10 @@
 0.0.0.0 watson.live.com
 0.0.0.0 watson.microsoft.com
 0.0.0.0 watson.officeint.microsoft.com
+0.0.0.0 watsoncab.trafficmanager.net
 0.0.0.0 wayfinderanalytics.servicebus.windows.net
 0.0.0.0 weather-analytics-events.apple.com
 0.0.0.0 weather-analytics-events.news.apple-dns.net
-0.0.0.0 westeurope-5.in.applicationinsights.azure.com.fiege.de
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
 0.0.0.0 win-global-asimov-leafs-events-data.trafficmanager.net
@@ -3149,7 +3122,6 @@
 0.0.0.0 word-telemetry.officeapps.live.com
 0.0.0.0 word-telemetry.wac.trafficmanager.net
 0.0.0.0 wtradv.market.xiaomi.com
-0.0.0.0 wttwebsiteprodapi-liveevents.trafficmanager.net
 0.0.0.0 xadx.file.market.xiaomi.com
 0.0.0.0 xiazai.xiaomi.com
 0.0.0.0 xlmc.sec.miui.com
