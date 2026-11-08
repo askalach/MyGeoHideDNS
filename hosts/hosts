@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-11-07 06:44 UTC
+# Дата сборки: 2026-11-08 06:50 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -2124,6 +2124,7 @@
 0.0.0.0 fr.feedback.xmpush.global.xiaomi.com
 0.0.0.0 frc-visio-telemetry.officeapps.live.com
 0.0.0.0 freeform-events.apple.com
+0.0.0.0 fxltsbl.com
 0.0.0.0 g.bing.com
 0.0.0.0 g00.msn.com
 0.0.0.0 gallery.cdn.pandora.xiaomi.com
@@ -2172,6 +2173,7 @@
 0.0.0.0 hybrid.miui.com
 0.0.0.0 i-cn01a.ocloud.heytapmobi.com
 0.0.0.0 i-in.browser.heytapmobile.com
+0.0.0.0 i-insurance.finzfin.com
 0.0.0.0 i-sg.browser.heytapmobile.com
 0.0.0.0 i-sg01a.ocloud.heytapmobi.com
 0.0.0.0 i-th.browser.heytapmobile.com
@@ -2554,6 +2556,7 @@
 0.0.0.0 o.xbox.com
 0.0.0.0 o2o.api.xiaomi.com
 0.0.0.0 obus-cn.dc.heytapmobi.com
+0.0.0.0 obus-conf-cn.heytapmobi.com
 0.0.0.0 obus-conf-fr.heytapmobile.com
 0.0.0.0 obus-conf-in.heytapmobile.com
 0.0.0.0 obus-conf-sg.heytapmobile.com
@@ -2704,6 +2707,7 @@
 0.0.0.0 ptmi.gitv.pandora.xiaomi.com
 0.0.0.0 pull.mitv.pandora.xiaomi.com
 0.0.0.0 puma-api.ptqy.gitv.tv
+0.0.0.0 push-ads-cn.heytapmobi.com
 0.0.0.0 push-dc-us.heytapmobile.com
 0.0.0.0 push.heytapmobile.com
 0.0.0.0 qiye.xiaomi.com
