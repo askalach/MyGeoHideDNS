@@ -1,5 +1,5 @@
 # Сгенерировано автоматически скриптом scripts/generate_hosts.py
-# Дата сборки: 2026-11-15 07:23 UTC
+# Дата сборки: 2026-11-21 07:53 UTC
 # Руками не править — изменения затрутся. Категории задаются в KEEP_CATEGORIES.
 #
 # Redirect-источник:
@@ -1481,7 +1481,6 @@
 0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 adstore.response.gcp.eastus.trafficmanager.net
 0.0.0.0 adsyndication.msn.com
-0.0.0.0 adsyndication.msn.com.nsatc.net
 0.0.0.0 adv.l7.34.sec.miui.com
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 adv.sec.miui.com
@@ -1532,7 +1531,6 @@
 0.0.0.0 analytics.samsungknox.com
 0.0.0.0 analytics.trafficmanager.net
 0.0.0.0 analyticsehnwe.servicebus.windows.net
-0.0.0.0 analyticsiot-prod-mobileapps-ehn.servicebus.windows.net
 0.0.0.0 analyticspixel.microsoft.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 api-analytics-qa.samsungknox.com
@@ -1686,6 +1684,7 @@
 0.0.0.0 br.ekatox.com
 0.0.0.0 br.tv.global.mi.com
 0.0.0.0 brc-visio-telemetry.officeapps.live.com
+0.0.0.0 browser-api-au.heytapmobile.com
 0.0.0.0 browser-api-br.heytapmobile.com
 0.0.0.0 browser-api-fr.heytapmobile.com
 0.0.0.0 browser-api-gl-01.heytapmobile.com
@@ -2015,7 +2014,6 @@
 0.0.0.0 dcintl.push.heytapmobi.com
 0.0.0.0 ddf.di.atlas.samsung.com
 0.0.0.0 de-gdpr-err-up.vivoglobal.com
-0.0.0.0 de-gdpr-vcode-api.vivoglobal.com
 0.0.0.0 de.pandora.xiaomi.com
 0.0.0.0 de.tv.global.mi.com
 0.0.0.0 dec-visio-telemetry.officeapps.live.com
@@ -2084,7 +2082,6 @@
 0.0.0.0 eu-domaincfg.vivoglobal.com
 0.0.0.0 eu-errup.vivoglobal.com
 0.0.0.0 eu-monitor-stsdk.vivoglobal.com
-0.0.0.0 eu-nrt-stsdk.vivoglobal.com
 0.0.0.0 eu-onrt-stsdk.vivoglobal.com
 0.0.0.0 eu-ort-stsdk.vivoglobal.com
 0.0.0.0 eu-p.vivoglobal.com
@@ -2111,6 +2108,7 @@
 0.0.0.0 eurppc-word-telemetry.officeapps.live.com
 0.0.0.0 event-tracking.samsung.com
 0.0.0.0 events-sandbox.data.microsoft.com
+0.0.0.0 events-sandbox.data.msn.cn
 0.0.0.0 events-sandbox.data.msn.com
 0.0.0.0 events.data.microsoft.com
 0.0.0.0 events.data.msn.cn
@@ -2255,7 +2253,6 @@
 0.0.0.0 iadsdk.apple.com.akadns.net
 0.0.0.0 iadsdk.apple.com.edgekey.net
 0.0.0.0 iadworkbench.apple.com
-0.0.0.0 icmskillevents.trafficmanager.net
 0.0.0.0 icosa-service-eu.allawnos.com
 0.0.0.0 icosa-service-fr-01.allawnos.com
 0.0.0.0 icosa-service-fr-02.allawnos.com
@@ -2278,6 +2275,7 @@
 0.0.0.0 id.ekatox.com
 0.0.0.0 id.push.heytapmobi.com
 0.0.0.0 id.tv.global.mi.com
+0.0.0.0 identity.nel.measure.office.net.intern.schreinereistumpf.de
 0.0.0.0 idiagnostics-mdn1.apple.com
 0.0.0.0 idiagnostics.apple.com
 0.0.0.0 idiagnostics.apple.com.akadns.net
@@ -2337,6 +2335,7 @@
 0.0.0.0 in-pnrt-stsdk.vivoglobal.com
 0.0.0.0 in-protect-dev.sec.intl.miui.com
 0.0.0.0 in-prt-stsdk.vivoglobal.com
+0.0.0.0 in-rt-stsdk.vivoglobal.com
 0.0.0.0 in-third-appstore.vivoglobal.com
 0.0.0.0 in-timesync.vivoglobal.com
 0.0.0.0 in-vcode-api.vivoglobal.com
@@ -2581,6 +2580,7 @@
 0.0.0.0 mistat.rus.xiaomi.com.ksyna.net
 0.0.0.0 mistat.xiaomi.com
 0.0.0.0 mistat.xiaomi.com.download.ks-cdn.com
+0.0.0.0 mistat.xiaomi.com.mgslb.com
 0.0.0.0 miui-l7-data-other-c3.pt.miui.com
 0.0.0.0 miui-l7-data-other.pt.miui.com
 0.0.0.0 miui.net
@@ -2708,6 +2708,7 @@
 0.0.0.0 oop-installer-gl.heytapmobile.com
 0.0.0.0 opay.heytapmobile.com
 0.0.0.0 openapi.vip.ptqy.gitv.tv
+0.0.0.0 opex-service-eu-allawna-e3dde.fr-w01.cngw.allawnos.com
 0.0.0.0 opex-service-eu.allawnos.com
 0.0.0.0 opex-service-in.allawnos.com
 0.0.0.0 opex-service-sg.allawnos.com
@@ -2747,6 +2748,7 @@
 0.0.0.0 performance-partners.apple.com
 0.0.0.0 pgtbr1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr2-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtca1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu1-word-telemetry-vip.officeapps.live.com
@@ -2760,8 +2762,8 @@
 0.0.0.0 pgteu4-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu4-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu5-excel-telemetry-vip.officeapps.live.com
-0.0.0.0 pgteu5-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgteu5-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtmx1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-word-telemetry-vip.officeapps.live.com
@@ -2819,6 +2821,7 @@
 0.0.0.0 prod-event-relay-sports-api.v.aaplimg.com
 0.0.0.0 prod-event-relay-stocks-api.v.aaplimg.com
 0.0.0.0 prod-event-relay-weather-api.v.aaplimg.com
+0.0.0.0 prod-event-relay-web-api.v.aaplimg.com
 0.0.0.0 prod-eventhub-analytics.servicebus.windows.net
 0.0.0.0 prod-iwork-events.v.aaplimg.com
 0.0.0.0 prod-news-notification-events.v.aaplimg.com
@@ -3143,13 +3146,11 @@
 0.0.0.0 swiftanalyticsprod.servicebus.windows.net
 0.0.0.0 sys.intl.xiaomi.com
 0.0.0.0 sys.tv.india.xiaomi.com
-0.0.0.0 t-ring-fallback-s2.msedge.net
 0.0.0.0 t-ring-fallback.msedge.net
 0.0.0.0 t-ring-fallbacks1.msedge.net
 0.0.0.0 t-ring-s2.msedge.net
 0.0.0.0 t-ring-trafficshield.msedge.net
 0.0.0.0 t-ring.msedge.net
-0.0.0.0 t-s2-ring.msedge.net
 0.0.0.0 t1.market.xiaomi.com
 0.0.0.0 t15.market.xiaomi.com
 0.0.0.0 t17.market.xiaomi.com
@@ -3258,7 +3259,6 @@
 0.0.0.0 upgrade.pandora.xiaomi.com
 0.0.0.0 upu.samsungelectronics.com
 0.0.0.0 ureca.samsungapps.com
-0.0.0.0 us-mesh-events-data-leafs.trafficmanager.net
 0.0.0.0 us-report.gras.samsungdm.com
 0.0.0.0 us.ekatox.com
 0.0.0.0 us.tv.global.mi.com
